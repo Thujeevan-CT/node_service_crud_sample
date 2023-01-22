@@ -9,6 +9,16 @@ app.use('/', (req, res) => {
   }
 })
 
+app.use('/hello', (req, res) => {
+  try {
+    res.send("Hello");
+    console.log("Hello");
+  } catch (error) {
+    console.log(error)
+  }
+})
+
+
 app.listen(8080, () => {
   console.log("Backend is started on 8080")
 })
