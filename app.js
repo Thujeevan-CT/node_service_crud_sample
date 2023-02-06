@@ -27,7 +27,7 @@ if (cluster.isMaster) {
   app.options("*", cors());
   app.use(express.json());
   app.use(connectDatabase);
-  app.use(morgan("dev"));
+  app.use(morgan("tiny"));
 
   app.get('/', async (req, res) => {
     try {
