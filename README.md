@@ -1,4 +1,5 @@
 # node_service_crud_sample
-Express
+Express server
 Hosted link: https://service-api-node.onrender.com
+
 Sample API endpoints for CRUD API integration practice
